@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body
+{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  background-image: linear-gradient(to right ,black,grey,black);
+
+}
+.navigation-bar
+{
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-image: linear-gradient(to right ,#61fffa,#69c9c3,#61fffa);
+/*  background-color: #61fffa;*/
+
+
+}
+.myname
+{
+  font-family: 'Rowdies', cursive;
+  font-weight: bolder;
+  font-size: 30px;
+  color: black;
+}
+.mymenu
+{
+  font-family: ;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-family: 'Roboto Slab', serif;
+}
+.mymenu:hover
+{
+  color: navajowhite;
+}
+
+.dv
+{
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(to right ,black,grey,black);
+
+  
+}
+.dvv
+{
+  height: 1200px;
+  width: 100%;
+  background-image: linear-gradient(to right ,black,grey,black);
+
+}
+.info
+{
+  margin-top: 10%;
+  margin-left: 5%;
+  padding-top: 30px;
+  padding-left: 40px;
+  
+}
+.hminfo
+{
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+}
+.hmname
+{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color:floralwhite  ;
+  text-shadow: 0px 0px 10px darkgrey;
+}
+.cont
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+#home
+{
+  width: 100vw;
+  height: 400px;
+  background-image: url('https://media.tenor.com/UttC4AITYR4AAAAd/full-stack-developer.gif');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 90% -60px;
+}
+
+.rsmbtn button
+{
+  height: 50px;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  margin: 30px;
+/*  background-color: #fc6805;*/
+  background-image: linear-gradient(to right ,orange,red,orange);
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+.rsmbtn button:hover
+{
+  transform: scale(1.2);
+  transition-duration: 1s;
+  border: 1px solid #fc6805;
+  background-color: white;
+  text-color: #fc6805;
+}
+.hd
+{
+  font-size: 35px;
+  color: #010580;
+ font-family: 'Roboto Slab', serif;
+ font-weight: bolder;
+
+}
+.outerdiv
+{
+  height: 300px;
+  width: 100vw;
+  background-color: lightblue;
+  display: inline;
+}
+#about,#skills
+{
+  height: 300px;
+  width: 100vw;
+  background-color: #fcfcfc;
+
+}
+#about table
+{
+  margin-top: 30px;
+}
+.co
+{
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: justify;
+  text-indent: 20%;
+  line-height: 36px;
+  color: floralwhite;
+}
+.myimg
+{
+  border-radius: 100px;
+  width: 200px;
+}
+.myimg:hover
+{
+  transform: scale(1.3);
+  transition-duration: 2s;
+  box-shadow: 0px 0px 20px ghostwhite;
+}
+#skills
+{
+  background-color: white;
+  margin-top: 30px;
+  height: 500px;
+}
+#skills table
+{
+  margin-top: 30px;
+}
+.tbl tr td 
+{
+  text-align:left;
+  padding-top: 0px;
+}
+.skillshead
+{
+  font-size: 23px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  color: #fc6805;
+  margin-bottom: 40px;
+  text-decoration: underline 2px solid  #fc6805;
+}
+td
+{
+  padding: 20px;
+}
+.tbl tr td p 
+{
+  font-size: 20px;
+  margin-top: 20px;
+  color: floralwhite;
+  font-weight: bolder;
+
+}
+.card
+{
+  background-image: linear-gradient(to right ,black,grey,black);
+
+}
+.card-text
+{
+    color: floralwhite;
+
+}
+.projectsss
+{
+  margin-top: 30px;
+  width: 90%;
+  height: 800px;
+}
+.protitle
+{
+  font-size: 23px;
+  font-weight: bolder;
+  color:#9da3fc;
+}
+.protitle:hover
+{
+  color: royalblue;
+  text-decoration: underline 2px solid royalblue ;
+}
+.card-text small a 
+{
+  font-weight: bolder;
+}
+#nextpro
+{
+  margin-top: 20px;
+}
+#contact
+{
+  margin-top: 2500px;
+  height: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .gmail:hover,
+.wrapper .gmail:hover .tooltip,
+.wrapper .gmail:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
